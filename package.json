@@ -1,0 +1,31 @@
+{
+  "name": "excerpts",
+  "version": "1.0.0",
+  "description": "记录平时工作学习中的知识点,以备面试复习之用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeXu/excerpts.git"
+  },
+  "keywords": [
+    "面试",
+    "知识点"
+  ],
+  "author": "jake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeXu/excerpts/issues"
+  },
+  "homepage": "https://github.com/JakeXu/excerpts#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
